@@ -1,0 +1,24 @@
+{
+  "name": "scribe-plugin-word-count",
+  "description": "Count words in a text selection and in the whole document",
+  "version": "0.1.0",
+  "homepage": "https://github.com/guardian/scribe-plugin-word-count",
+  "license": "MIT",
+  "copyright": "alessandro ludovici",
+  "main": "dist/scribe-plugin-word-count.js",
+  "dependencies": {
+    "scribe": "~1.0.0",
+    "scribe-plugin-toolbar": "~0.1.4",
+    "scribe-common": "~0.0.11",
+    "lodash-amd": "~2.4.1"
+  },
+  "devDependencies": {},
+  "ignore": [
+    "test",
+    "example",
+    "lib",
+    "Gruntfile.js",
+    "package.json",
+    "grunt"
+  ]
+}
